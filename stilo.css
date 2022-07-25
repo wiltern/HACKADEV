@@ -1,0 +1,59 @@
+
+.tipodecadastro{
+  text-align: left;
+  border: 1px solid darkgray;
+  display: flexbox;
+
+}
+
+.fisjur{
+   
+    text-align: left;
+    justify-content: space-around;
+    display: flex;
+    width: 30%;
+    list-style: none;
+    font-size: 11pt;
+
+}
+
+
+
+.formulariogeral{
+    list-style: none;
+    text-align: left;
+    justify-content: flex-start;
+    display:flex;
+    
+ 
+    
+}
+
+
+.dadospessoais{
+  border: 1px solid darkgray;
+  width: 49%;
+  align-items: center;
+  display: inline-block;
+}
+  
+
+.endereco{
+    border: 1px solid darkgray;
+    width: 49%;
+    display: inline-block;
+    align-items: center;
+}
+  
+.botaocancelar{
+   border-radius: 10%;
+   right: 50%;
+   text-align: center;
+}
+
+.botaocriarconta{
+    background-color: green;
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+  }
