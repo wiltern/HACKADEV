@@ -1,9 +1,25 @@
+body{
+  background-color: #D4927B;
+  
+}
+h2{
+  margin-left: 2%;
+  font-size: 30px;
+  color: #883049;
+}
+input{
+  
+  margin-left: 5px;
+  
+}
 
 .tipodecadastro{
   text-align: left;
-  border: 1px solid darkgray;
-  display: flexbox;
-
+  background-color: white;
+  /* border-radius: 15px; */
+  box-shadow: 3px 3px 3px 3px white;
+  width: auto;
+  
 }
 
 .fisjur{
@@ -14,41 +30,50 @@
     width: 30%;
     list-style: none;
     font-size: 11pt;
-
+    
 }
-
-
 
 .formulariogeral{
     list-style: none;
     text-align: left;
     justify-content: flex-start;
     display:flex;
-    
- 
-    
 }
 
-
 .dadospessoais{
-  border: 1px solid darkgray;
   width: 49%;
   align-items: center;
   display: inline-block;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 3px white;
+  margin: 50px 4px 5px 3px;
+  position: relative;
+  top: -70px;
+  
 }
   
-
 .endereco{
-    border: 1px solid darkgray;
+    /* border: 1px solid darkgray; */
     width: 49%;
     display: inline-block;
     align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px white;
+    height: 200%;
+    margin: -3px 4px 5px 3px;
+    
+ 
 }
   
 .botaocancelar{
    border-radius: 10%;
    right: 50%;
    text-align: center;
+   margin: 5px 4px 5px 3px;
+      
+   
 }
 
 .botaocriarconta{
@@ -56,4 +81,12 @@
     color: white;
     border-radius: 10%;
     text-align: center;
+    margin: 5px 4px 5px 3px;
+    
   }
+
+  .botoes{
+    display: inline-block;
+    margin-top: 20px;
+
+    }
